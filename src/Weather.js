@@ -19,15 +19,27 @@ export default function Weather() {
         </div>
       </form>
       <br />
-      <h2>feels like 12°C </h2>
-      <h1>20°C</h1>
+      <br />
+      <br />
+      <h4>feels like 12°C </h4>
+      <br />
+      <div className="temp-circle">
+        <h1 className="temp-result">
+          20<strong className="celc-or-faren">°C</strong>
+        </h1>
+      </div>
+      <br />
+      <br />
       <img
-        src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-        alt="slightly cloudy"
+        className="weather-image"
+        src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+        alt="sunny"
       />
       <h2>slightly cloudy</h2>
+      <br />
       <hr />
-      <ul>
+      <br />
+      <ul className="bottom-icons">
         <li>༄ 6.2</li>
         <li>🌧 %65 </li>
         <li>☁︎ %0 </li>

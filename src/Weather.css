@@ -1,6 +1,55 @@
 .Weather {
-  border: 1px solid;
+  border-radius: 50px;
   text-align: center;
-  padding: 100px;
+  padding: 30px 80px 30px 80px;
   margin: 50px 350px;
+  background-color: #d9d9d9;
+}
+
+.temp-circle {
+  box-shadow: 3px 3px 3px 3px #d3d3d3;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+.temp-result {
+  font-size: 100px;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+}
+
+.celc-or-faren {
+  font-size: 30px;
+  font-weight: light;
+}
+.bottom-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 22px;
+}
+
+.weather-image {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 200px;
+  right: 700px;
+}
+
+input {
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px 3px #d3d3d3;
+}
+
+footer {
+  text-align: center;
 }
