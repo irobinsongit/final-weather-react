@@ -22,10 +22,16 @@
   justify-content: center;
 }
 
-.celc-or-faren {
+.cels-or-faren {
+  font-size: 25px;
+  font-weight: light;
+}
+
+.faren {
   font-size: 30px;
   font-weight: light;
 }
+
 .bottom-icons {
   display: flex;
   justify-content: space-between;
@@ -38,7 +44,7 @@ li {
 }
 
 .weather-image {
-  position: absolute;
+  display: inline-block;
   width: 200px;
   height: 200px;
   top: 200px;
