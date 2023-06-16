@@ -23,7 +23,6 @@ export default function WeatherInfo(props) {
       <br />
       <ul className="bottom-icons">
         <li>💨 {Math.round(props.data.wind)} kmph</li>
-        <li>☁️ %{Math.round(props.data.clouds)}</li>
         <li>🥵 %{Math.round(props.data.humidity)} </li>
       </ul>
       <br />

@@ -16,16 +16,20 @@ export default function WeatherForecast(props) {
       <div className="WeatherForecast">
         <div className="row">
           <div className="col">
-            Sat
+            <div className="WeatherForecast-day">{forecast[0].icon}</div>
             <div className="WeatherForecast-image-cont">
               <img
                 className="WeatherForecast-image"
-                src="https://openweathermap.org/img/wn/10d.png"
+                src={forecast[0].weather[0].icon}
               />
             </div>
             <div className="WeatherForecast-temperatures">
-              <span className="WeatherForecast-temperature-max">20° |</span>
-              <span className="WeatherForecast-temperature-min">19°</span>
+              <span className="WeatherForecast-temperature-max">
+                Math.round({forecast[0].temp.max})°C
+              </span>
+              <span className="WeatherForecast-temperature-min">
+                {forecast[0].temp.min}°C |
+              </span>
             </div>
           </div>
         </div>
