@@ -22,10 +22,13 @@ export default function WeatherInfo(props) {
       <hr />
       <br />
       <ul className="bottom-icons">
-        <li>༄ {Math.round(props.data.wind)} kmph</li>
-        <li>🌧 %65 </li>
-        <li>☁︎ %{Math.round(props.data.humidity)} </li>
+        <li>💨 {Math.round(props.data.wind)} kmph</li>
+        <li>☁️ %{Math.round(props.data.clouds)}</li>
+        <li>🥵 %{Math.round(props.data.humidity)} </li>
       </ul>
+      <br />
+      <hr />
+      <br />
     </div>
   );
 }
