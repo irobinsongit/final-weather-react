@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Tokyo" />
         <footer>
           <a
             href="https://github.com/irobinsongit/final-weather-react"
