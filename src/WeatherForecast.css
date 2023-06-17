@@ -18,3 +18,7 @@
 .WeatherForecast-temperature-max {
   font-size: 14px;
 }
+
+.WeatherForecast-day {
+  padding-bottom: 12px;
+}
