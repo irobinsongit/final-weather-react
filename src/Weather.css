@@ -34,21 +34,13 @@
 
 .bottom-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0;
 }
 
 li {
   list-style: none;
   font-size: 22px;
-}
-
-.weather-image {
-  position: relative;
-  margin-top: -250px;
-  margin-right: -200px;
-  width: 250px;
-  height: 250px;
 }
 
 input {

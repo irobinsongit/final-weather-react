@@ -2,11 +2,11 @@
   text-align: center;
 }
 
-.WeatherForecast-image {
-  width: 60px;
-  height: 60px;
-  display: block;
-  margin: 0 auto;
+.WeatherInfo canvas {
+  position: relative;
+  margin-bottom: 52px;
+  margin-left: 178px;
+  margin-top: -188px;
 }
 
 .WeatherForecast-temperature-min {
